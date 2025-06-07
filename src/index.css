@@ -1,7 +1,29 @@
+@import "aos/dist/aos.css";
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 body {
-  @apply bg-green-50 text-green-800;
+  font-family: 'Noto Sans KR', sans-serif;
+  background-color: #f0fdf4; /* emerald-50 느낌 */
+  color: #1e3a3a; /* emerald-900 느낌 */
+  line-height: 1.6;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Gowun Dodum', sans-serif;
+  color: #047857; /* emerald-700 */
+}
+
+strong {
+  color: #065f46; /* emerald-800 */
+}
+
+a {
+  color: #16a34a; /* emerald-600 */
+}
+
+a:hover {
+  color: #15803d; /* emerald-700 */
 }
